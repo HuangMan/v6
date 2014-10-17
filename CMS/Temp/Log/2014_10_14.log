@@ -1,0 +1,10 @@
+[ 2014-10-14T02:23:53+08:00 ]NOTICE:  : [8] Undefined index: username C:\wamp\www\v6\CMS\Temp\Compile\Admin\Index\index_06f859f3.php 第 21 行.
+
+[ 2014-10-14T02:23:53+08:00 ]ERROR: 控制器中不存在动作welcome
+[ 2014-10-14T02:30:13+08:00 ]NOTICE:  : [8] Undefined index: username C:\wamp\www\v6\CMS\Temp\Compile\Admin\Index\index_06f859f3.php 第 21 行.
+
+[ 2014-10-14T02:30:13+08:00 ]ERROR: 控制器中不存在动作welcome
+[ 2014-10-14T02:31:21+08:00 ]NOTICE:  : [8] Undefined index: username C:\wamp\www\v6\CMS\Temp\Compile\Admin\Index\index_06f859f3.php 第 21 行.
+
+[ 2014-10-14T02:31:21+08:00 ]ERROR: 控制器中不存在动作welcome
+[ 2014-10-14T02:31:40+08:00 ]ERROR: 控制器中不存在动作welcome

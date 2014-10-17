@@ -1,0 +1,123 @@
+[ 2014-10-15T02:57:52+08:00 ]NOTICE:  : [8] Undefined index: username C:\wamp\www\v6\CMS\Temp\Compile\Admin\Index\index_06f859f3.php 第 21 行.
+
+[ 2014-10-15T02:57:53+08:00 ]ERROR: 控制器中不存在动作welcome
+[ 2014-10-15T02:59:47+08:00 ]NOTICE:  : [8] Undefined index: username C:\wamp\www\v6\CMS\Temp\Compile\Admin\Index\index_06f859f3.php 第 21 行.
+
+[ 2014-10-15T02:59:48+08:00 ]ERROR: 控制器中不存在动作welcome
+[ 2014-10-15T03:00:36+08:00 ]NOTICE:  : [8] Undefined index: username C:\wamp\www\v6\CMS\Temp\Compile\Admin\Index\index_06f859f3.php 第 21 行.
+
+[ 2014-10-15T03:00:36+08:00 ]ERROR: 控制器中不存在动作welcome
+[ 2014-10-15T03:04:55+08:00 ]NOTICE:  : [8] Undefined index: _name C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 64 行.
+[ 2014-10-15T03:04:55+08:00 ]NOTICE:  : [8] Use of undefined constant edit - assumed 'edit' C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 67 行.
+[ 2014-10-15T03:04:55+08:00 ]NOTICE:  : [8] Use of undefined constant del - assumed 'del' C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 68 行.
+[ 2014-10-15T03:04:55+08:00 ]NOTICE:  : [8] Undefined index: _name C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 64 行.
+[ 2014-10-15T03:04:55+08:00 ]NOTICE:  : [8] Use of undefined constant edit - assumed 'edit' C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 67 行.
+[ 2014-10-15T03:04:55+08:00 ]NOTICE:  : [8] Use of undefined constant del - assumed 'del' C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 68 行.
+[ 2014-10-15T03:04:55+08:00 ]NOTICE:  : [8] Undefined index: _name C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 64 行.
+[ 2014-10-15T03:04:55+08:00 ]NOTICE:  : [8] Use of undefined constant edit - assumed 'edit' C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 67 行.
+[ 2014-10-15T03:04:55+08:00 ]NOTICE:  : [8] Use of undefined constant del - assumed 'del' C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 68 行.
+[ 2014-10-15T03:04:55+08:00 ]NOTICE:  : [8] Undefined index: _name C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 64 行.
+[ 2014-10-15T03:04:55+08:00 ]NOTICE:  : [8] Use of undefined constant edit - assumed 'edit' C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 67 行.
+[ 2014-10-15T03:04:55+08:00 ]NOTICE:  : [8] Use of undefined constant del - assumed 'del' C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 68 行.
+[ 2014-10-15T03:04:55+08:00 ]NOTICE:  : [8] Undefined index: _name C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 64 行.
+[ 2014-10-15T03:04:55+08:00 ]NOTICE:  : [8] Use of undefined constant edit - assumed 'edit' C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 67 行.
+[ 2014-10-15T03:04:55+08:00 ]NOTICE:  : [8] Use of undefined constant del - assumed 'del' C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 68 行.
+[ 2014-10-15T03:04:55+08:00 ]NOTICE:  : [8] Undefined index: _name C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 64 行.
+[ 2014-10-15T03:04:55+08:00 ]NOTICE:  : [8] Use of undefined constant edit - assumed 'edit' C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 67 行.
+[ 2014-10-15T03:04:55+08:00 ]NOTICE:  : [8] Use of undefined constant del - assumed 'del' C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 68 行.
+[ 2014-10-15T03:04:55+08:00 ]NOTICE:  : [8] Undefined index: _name C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 64 行.
+[ 2014-10-15T03:04:55+08:00 ]NOTICE:  : [8] Use of undefined constant edit - assumed 'edit' C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 67 行.
+[ 2014-10-15T03:04:55+08:00 ]NOTICE:  : [8] Use of undefined constant del - assumed 'del' C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 68 行.
+[ 2014-10-15T03:04:55+08:00 ]NOTICE:  : [8] Undefined index: _name C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 64 行.
+[ 2014-10-15T03:04:55+08:00 ]NOTICE:  : [8] Use of undefined constant edit - assumed 'edit' C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 67 行.
+[ 2014-10-15T03:04:55+08:00 ]NOTICE:  : [8] Use of undefined constant del - assumed 'del' C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 68 行.
+[ 2014-10-15T03:04:55+08:00 ]NOTICE:  : [8] Undefined index: _name C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 64 行.
+[ 2014-10-15T03:04:55+08:00 ]NOTICE:  : [8] Use of undefined constant edit - assumed 'edit' C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 67 行.
+[ 2014-10-15T03:04:55+08:00 ]NOTICE:  : [8] Use of undefined constant del - assumed 'del' C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 68 行.
+[ 2014-10-15T03:04:55+08:00 ]NOTICE:  : [8] Undefined index: _name C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 64 行.
+[ 2014-10-15T03:04:55+08:00 ]NOTICE:  : [8] Use of undefined constant edit - assumed 'edit' C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 67 行.
+[ 2014-10-15T03:04:55+08:00 ]NOTICE:  : [8] Use of undefined constant del - assumed 'del' C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 68 行.
+
+[ 2014-10-15T03:05:40+08:00 ]NOTICE:  : [8] Undefined index: _name C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 64 行.
+[ 2014-10-15T03:05:40+08:00 ]NOTICE:  : [8] Use of undefined constant edit - assumed 'edit' C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 67 行.
+[ 2014-10-15T03:05:40+08:00 ]NOTICE:  : [8] Use of undefined constant del - assumed 'del' C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 68 行.
+[ 2014-10-15T03:05:40+08:00 ]NOTICE:  : [8] Undefined index: _name C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 64 行.
+[ 2014-10-15T03:05:40+08:00 ]NOTICE:  : [8] Use of undefined constant edit - assumed 'edit' C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 67 行.
+[ 2014-10-15T03:05:40+08:00 ]NOTICE:  : [8] Use of undefined constant del - assumed 'del' C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 68 行.
+[ 2014-10-15T03:05:40+08:00 ]NOTICE:  : [8] Undefined index: _name C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 64 行.
+[ 2014-10-15T03:05:40+08:00 ]NOTICE:  : [8] Use of undefined constant edit - assumed 'edit' C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 67 行.
+[ 2014-10-15T03:05:40+08:00 ]NOTICE:  : [8] Use of undefined constant del - assumed 'del' C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 68 行.
+[ 2014-10-15T03:05:40+08:00 ]NOTICE:  : [8] Undefined index: _name C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 64 行.
+[ 2014-10-15T03:05:40+08:00 ]NOTICE:  : [8] Use of undefined constant edit - assumed 'edit' C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 67 行.
+[ 2014-10-15T03:05:40+08:00 ]NOTICE:  : [8] Use of undefined constant del - assumed 'del' C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 68 行.
+[ 2014-10-15T03:05:40+08:00 ]NOTICE:  : [8] Undefined index: _name C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 64 行.
+[ 2014-10-15T03:05:40+08:00 ]NOTICE:  : [8] Use of undefined constant edit - assumed 'edit' C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 67 行.
+[ 2014-10-15T03:05:40+08:00 ]NOTICE:  : [8] Use of undefined constant del - assumed 'del' C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 68 行.
+[ 2014-10-15T03:05:40+08:00 ]NOTICE:  : [8] Undefined index: _name C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 64 行.
+[ 2014-10-15T03:05:40+08:00 ]NOTICE:  : [8] Use of undefined constant edit - assumed 'edit' C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 67 行.
+[ 2014-10-15T03:05:40+08:00 ]NOTICE:  : [8] Use of undefined constant del - assumed 'del' C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 68 行.
+[ 2014-10-15T03:05:40+08:00 ]NOTICE:  : [8] Undefined index: _name C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 64 行.
+[ 2014-10-15T03:05:40+08:00 ]NOTICE:  : [8] Use of undefined constant edit - assumed 'edit' C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 67 行.
+[ 2014-10-15T03:05:40+08:00 ]NOTICE:  : [8] Use of undefined constant del - assumed 'del' C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 68 行.
+[ 2014-10-15T03:05:40+08:00 ]NOTICE:  : [8] Undefined index: _name C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 64 行.
+[ 2014-10-15T03:05:40+08:00 ]NOTICE:  : [8] Use of undefined constant edit - assumed 'edit' C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 67 行.
+[ 2014-10-15T03:05:40+08:00 ]NOTICE:  : [8] Use of undefined constant del - assumed 'del' C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 68 行.
+[ 2014-10-15T03:05:40+08:00 ]NOTICE:  : [8] Undefined index: _name C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 64 行.
+[ 2014-10-15T03:05:40+08:00 ]NOTICE:  : [8] Use of undefined constant edit - assumed 'edit' C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 67 行.
+[ 2014-10-15T03:05:40+08:00 ]NOTICE:  : [8] Use of undefined constant del - assumed 'del' C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 68 行.
+[ 2014-10-15T03:05:40+08:00 ]NOTICE:  : [8] Undefined index: _name C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 64 行.
+[ 2014-10-15T03:05:40+08:00 ]NOTICE:  : [8] Use of undefined constant edit - assumed 'edit' C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 67 行.
+[ 2014-10-15T03:05:40+08:00 ]NOTICE:  : [8] Use of undefined constant del - assumed 'del' C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 68 行.
+
+[ 2014-10-15T03:06:00+08:00 ]NOTICE:  : [8] Undefined index: _name C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 64 行.
+[ 2014-10-15T03:06:00+08:00 ]NOTICE:  : [8] Use of undefined constant edit - assumed 'edit' C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 67 行.
+[ 2014-10-15T03:06:00+08:00 ]NOTICE:  : [8] Use of undefined constant del - assumed 'del' C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 68 行.
+[ 2014-10-15T03:06:00+08:00 ]NOTICE:  : [8] Undefined index: _name C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 64 行.
+[ 2014-10-15T03:06:00+08:00 ]NOTICE:  : [8] Use of undefined constant edit - assumed 'edit' C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 67 行.
+[ 2014-10-15T03:06:00+08:00 ]NOTICE:  : [8] Use of undefined constant del - assumed 'del' C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 68 行.
+[ 2014-10-15T03:06:00+08:00 ]NOTICE:  : [8] Undefined index: _name C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 64 行.
+[ 2014-10-15T03:06:00+08:00 ]NOTICE:  : [8] Use of undefined constant edit - assumed 'edit' C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 67 行.
+[ 2014-10-15T03:06:00+08:00 ]NOTICE:  : [8] Use of undefined constant del - assumed 'del' C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 68 行.
+[ 2014-10-15T03:06:00+08:00 ]NOTICE:  : [8] Undefined index: _name C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 64 行.
+[ 2014-10-15T03:06:00+08:00 ]NOTICE:  : [8] Use of undefined constant edit - assumed 'edit' C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 67 行.
+[ 2014-10-15T03:06:00+08:00 ]NOTICE:  : [8] Use of undefined constant del - assumed 'del' C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 68 行.
+[ 2014-10-15T03:06:00+08:00 ]NOTICE:  : [8] Undefined index: _name C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 64 行.
+[ 2014-10-15T03:06:00+08:00 ]NOTICE:  : [8] Use of undefined constant edit - assumed 'edit' C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 67 行.
+[ 2014-10-15T03:06:00+08:00 ]NOTICE:  : [8] Use of undefined constant del - assumed 'del' C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 68 行.
+[ 2014-10-15T03:06:00+08:00 ]NOTICE:  : [8] Undefined index: _name C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 64 行.
+[ 2014-10-15T03:06:00+08:00 ]NOTICE:  : [8] Use of undefined constant edit - assumed 'edit' C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 67 行.
+[ 2014-10-15T03:06:00+08:00 ]NOTICE:  : [8] Use of undefined constant del - assumed 'del' C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 68 行.
+[ 2014-10-15T03:06:00+08:00 ]NOTICE:  : [8] Undefined index: _name C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 64 行.
+[ 2014-10-15T03:06:00+08:00 ]NOTICE:  : [8] Use of undefined constant edit - assumed 'edit' C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 67 行.
+[ 2014-10-15T03:06:00+08:00 ]NOTICE:  : [8] Use of undefined constant del - assumed 'del' C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 68 行.
+[ 2014-10-15T03:06:00+08:00 ]NOTICE:  : [8] Undefined index: _name C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 64 行.
+[ 2014-10-15T03:06:00+08:00 ]NOTICE:  : [8] Use of undefined constant edit - assumed 'edit' C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 67 行.
+[ 2014-10-15T03:06:00+08:00 ]NOTICE:  : [8] Use of undefined constant del - assumed 'del' C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 68 行.
+[ 2014-10-15T03:06:00+08:00 ]NOTICE:  : [8] Undefined index: _name C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 64 行.
+[ 2014-10-15T03:06:00+08:00 ]NOTICE:  : [8] Use of undefined constant edit - assumed 'edit' C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 67 行.
+[ 2014-10-15T03:06:01+08:00 ]NOTICE:  : [8] Use of undefined constant del - assumed 'del' C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 68 行.
+[ 2014-10-15T03:06:01+08:00 ]NOTICE:  : [8] Undefined index: _name C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 64 行.
+[ 2014-10-15T03:06:01+08:00 ]NOTICE:  : [8] Use of undefined constant edit - assumed 'edit' C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 67 行.
+[ 2014-10-15T03:06:01+08:00 ]NOTICE:  : [8] Use of undefined constant del - assumed 'del' C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 68 行.
+
+[ 2014-10-15T03:06:28+08:00 ]NOTICE:  : [8] Use of undefined constant edit - assumed 'edit' C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 67 行.
+[ 2014-10-15T03:06:28+08:00 ]NOTICE:  : [8] Use of undefined constant del - assumed 'del' C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 68 行.
+[ 2014-10-15T03:06:28+08:00 ]NOTICE:  : [8] Use of undefined constant edit - assumed 'edit' C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 67 行.
+[ 2014-10-15T03:06:28+08:00 ]NOTICE:  : [8] Use of undefined constant del - assumed 'del' C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 68 行.
+[ 2014-10-15T03:06:28+08:00 ]NOTICE:  : [8] Use of undefined constant edit - assumed 'edit' C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 67 行.
+[ 2014-10-15T03:06:28+08:00 ]NOTICE:  : [8] Use of undefined constant del - assumed 'del' C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 68 行.
+[ 2014-10-15T03:06:28+08:00 ]NOTICE:  : [8] Use of undefined constant edit - assumed 'edit' C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 67 行.
+[ 2014-10-15T03:06:28+08:00 ]NOTICE:  : [8] Use of undefined constant del - assumed 'del' C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 68 行.
+[ 2014-10-15T03:06:28+08:00 ]NOTICE:  : [8] Use of undefined constant edit - assumed 'edit' C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 67 行.
+[ 2014-10-15T03:06:28+08:00 ]NOTICE:  : [8] Use of undefined constant del - assumed 'del' C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 68 行.
+[ 2014-10-15T03:06:28+08:00 ]NOTICE:  : [8] Use of undefined constant edit - assumed 'edit' C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 67 行.
+[ 2014-10-15T03:06:28+08:00 ]NOTICE:  : [8] Use of undefined constant del - assumed 'del' C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 68 行.
+[ 2014-10-15T03:06:28+08:00 ]NOTICE:  : [8] Use of undefined constant edit - assumed 'edit' C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 67 行.
+[ 2014-10-15T03:06:28+08:00 ]NOTICE:  : [8] Use of undefined constant del - assumed 'del' C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 68 行.
+[ 2014-10-15T03:06:28+08:00 ]NOTICE:  : [8] Use of undefined constant edit - assumed 'edit' C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 67 行.
+[ 2014-10-15T03:06:28+08:00 ]NOTICE:  : [8] Use of undefined constant del - assumed 'del' C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 68 行.
+[ 2014-10-15T03:06:28+08:00 ]NOTICE:  : [8] Use of undefined constant edit - assumed 'edit' C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 67 行.
+[ 2014-10-15T03:06:28+08:00 ]NOTICE:  : [8] Use of undefined constant del - assumed 'del' C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 68 行.
+[ 2014-10-15T03:06:28+08:00 ]NOTICE:  : [8] Use of undefined constant edit - assumed 'edit' C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 67 行.
+[ 2014-10-15T03:06:28+08:00 ]NOTICE:  : [8] Use of undefined constant del - assumed 'del' C:\wamp\www\v6\CMS\Temp\Compile\Admin\Category\index_522294d8.php 第 68 行.
+

@@ -1,0 +1,31 @@
+$(function(){
+    $('.hd-form').validate({
+    cname:{
+    	rule:{
+    			required:true,
+    		},
+    	error:{
+    		required:'栏目名称必须填写',
+    	},
+    	message:'请填写栏目名称',
+    	},
+    keywords:{
+    	rule:{
+    			required:true,
+    		},
+    	error:{
+    		required:'栏目名称必须填写',
+    	},
+    	message:'请填写栏目名称',
+    	},
+    description:{
+    	rule:{
+    			required:true,
+    		},
+    	error:{
+    		required:'栏目名称必须填写',
+    	},
+    	message:'请填写栏目名称',
+    	}	
+    })
+})

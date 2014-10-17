@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>添加栏目</title>
+	<hdjs/>
+    <js file="__PUBLIC__/js/ajax.js">
+</head>
+<body>
+ <div class="menu_list">
+     <ul>
+        <li><a href="{|U:'index'}" > 栏目列表 </a></li>
+        <li><a href="javascript:;" class="action"> 添加栏目 </a></li>
+        <li><a href="javascript:update_cache();"> 更新栏目缓存 </a></li>
+     </ul>
+ </div>
+ <div class='title-header'>添加栏目</div>
+ <form action="" method='post' class='hd-form' onsubmit="return hd_submit(this,'{|U:'index'}')">
+ 	<table class='table1'>
+ 		<tr>
+ 			<th class='w100'>栏目名称</th>
+ 			<td><input type="text" name='cname' class='w200' value="{$cate.cname}"/></td>
+ 		</tr>
+ 		<tr>
+ 			<th class='w100'>关键字</th>
+ 			<td><input type="text" name='keywords' class='w200' value="{$cate.keywords}"/></td>
+ 		</tr>
+ 		<tr>
+ 			<th class='w100'>栏目描述</th>
+ 			<td>
+ 			<textarea name="description" class='w300 h150'>{$cate.description}</textarea>	
+ 			</td> 
+ 		</tr>
+ 	</table>
+ 	<div class="position-bottom">
+        <input type="submit" class="hd-success" value=" 确定 "/>
+    </div>
+ </form>
+</body>
+</html>
