@@ -14,7 +14,7 @@
 HOST = 'http://localhost';
 ROOT = 'http://localhost/v6';
 WEB = 'http://localhost/v6/index.php';
-URL = 'http://localhost/v6/index.php/Admin/Category/add/pid/7';
+URL = 'http://localhost/v6/index.php/Admin/Category/add';
 APP = 'http://localhost/v6/CMS';
 COMMON = 'http://localhost/v6/CMS/Common';
 HDPHP = 'http://localhost/hdphp/hdphp';
@@ -28,7 +28,7 @@ HDPHPTPL = 'http://localhost/hdphp/hdphp/Lib/Tpl';
 VIEW = 'http://localhost/v6/CMS/Admin/View';
 PUBLIC = 'http://localhost/v6/CMS/Admin/View/Public';
 CONTROLLERVIEW = 'http://localhost/v6/CMS/Admin/View/Category';
-HISTORY = 'http://localhost/v6/index.php/Category/Category/index';
+HISTORY = 'http://localhost/v6/index.php/Admin/Category/index';
 </script>
     <script type="text/javascript" src="http://localhost/v6/CMS/Admin/View/Public/js/ajax.js"></script>
 </head>
@@ -41,7 +41,7 @@ HISTORY = 'http://localhost/v6/index.php/Category/Category/index';
      </ul>
  </div>
  <div class='title-header'>添加栏目</div>
- <form action="" method='post' class='hd-form'>
+ <form action="" method='post' class='hd-form' onsubmit="return hd_submit(this,'<?php echo U(index);?>')">
     <input type="hidden" name="pid" value='<?php echo _default($_GET['pid'],0);?>'>
  	<table class='table1'>
  		<tr>

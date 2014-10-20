@@ -5,6 +5,7 @@
     */
    Class CategoryController extends Controller{
         private $db;
+
         public function __init(){
         	$this->db = K('category');
         }
@@ -37,16 +38,32 @@
 
          public function edit(){
           $cid = Q('cid',0,'intval');
+
           if (IS_POST) {
            if (!$this->db->create()){
-              $this->ajax(array('state'=>0,'message'=>'编辑分类失败'));
+              $this->ajax(array('state'=>0,'message'=>'栏目修改失败'));
             }else{
               $this->db->where(array('cid'=>$cid))->save();
-              $this->ajax(array('state'=>1,'message'=>'编辑分类成功'));
+              $this->ajax(array('state'=>1,'message'=>'栏目修改成功'));
             }
           }
+           print_const();
           $cate = K('category')->getData($cid);
+          $category = K('category')->getAllCate();
+          $data = Data::tree($category,'cname');
+          foreach ($data as $k => $v) {
+            // 将父级栏目定义为选中状态
+            if ($v['cid'] == $cate['pid']) {
+              $data[$k]['select'] = "selected='selected'"; 
+            };
+            // 将自身与子集定义为禁止选择状态
+            if ($v['cid'] == $cid || Data::isChild($data,$v['cid'],$cid)) {
+              $data[$k]['disabled'] = "disabled='disabled' class='disabled'";
+            }
+          }
+          // p($data);
           $this->assign('cate',$cate);
+          $this->assign('category',$data);
           $this->display();
          }
    }

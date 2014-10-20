@@ -13,7 +13,7 @@
 HOST = 'http://localhost';
 ROOT = 'http://localhost/v6';
 WEB = 'http://localhost/v6/index.php';
-URL = 'http://localhost/v6/index.php/Admin/Category/index';
+URL = 'http://localhost/v6/index.php/Category/Category/index';
 APP = 'http://localhost/v6/CMS';
 COMMON = 'http://localhost/v6/CMS/Common';
 HDPHP = 'http://localhost/hdphp/hdphp';
@@ -27,7 +27,7 @@ HDPHPTPL = 'http://localhost/hdphp/hdphp/Lib/Tpl';
 VIEW = 'http://localhost/v6/CMS/Admin/View';
 PUBLIC = 'http://localhost/v6/CMS/Admin/View/Public';
 CONTROLLERVIEW = 'http://localhost/v6/CMS/Admin/View/Category';
-HISTORY = 'http://localhost/v6/index.php/Admin/Category/add/pid/7';
+HISTORY = 'http://localhost/v6/';
 </script>
 </head>
 <body>
