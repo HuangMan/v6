@@ -19,6 +19,16 @@
       public function getData($cid){
           return $this->where(array('cid'=>$cid))->find();
       }
+      
+      public function delCate($cid){
+          $this->where(array('cid'=>$cid))->del();
+          return true;
+      }
+
+      public function updateCache(){
+        $cate = Data::tree($this->getAllCate(),'cname');
+        S('category',$cate,0,array('dir'=>CACHE_PATH));
+      }
 
   }
 

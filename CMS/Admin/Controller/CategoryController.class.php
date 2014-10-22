@@ -66,6 +66,36 @@
           $this->assign('category',$data);
           $this->display();
          }
+
+        // ajax方法删除栏目
+         public function del(){
+          $cid = Q('cid',0,'intval');
+            // 判断当前栏目下是否有子栏目
+           $son = $this->db->where(array('pid'=>$cid))->All();
+            if ($son) {
+              $this->error('请先删除子栏目');
+            }else{
+              if ($this->db->delCate($cid)) {
+                $this->ajax(array('state'=>1,'message'=>'删除栏目成功！'));
+              }else{
+                $this->ajax(array('state'=>0,'message'=>'删除栏目失败！'));
+              }
+              ;
+            }
+         }
+
+         /**
+          * [update_cache 更新缓存]
+          * @return [type] [description]
+          */
+         public function update_cache(){
+             if ($this->db->updateCache()) {
+               $this->success('更新缓存成功！',U('index'));
+             }else{
+               $this->error('更新缓存失败!');
+             }
+             
+         }
    }
 
  ?>
