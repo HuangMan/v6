@@ -5,14 +5,16 @@
     */
    Class CategoryController extends Controller{
         private $db;
+        private $category;
 
         public function __init(){
         	$this->db = K('category');
+          $this->category = S('category',false,0,array('dir'=>CACHE_PATH));
         }
 
          // 分类首页显示
    	     public function index(){
-   	     	$cate = K('category')->getAllCate();
+   	     	$cate = $this->category;
           $data = Data::tree($cate,'cname');
           // p($cate);
    	     	$this->assign('category',$data);
@@ -47,7 +49,6 @@
               $this->ajax(array('state'=>1,'message'=>'栏目修改成功'));
             }
           }
-           print_const();
           $cate = K('category')->getData($cid);
           $category = K('category')->getAllCate();
           $data = Data::tree($category,'cname');
@@ -89,7 +90,8 @@
           * @return [type] [description]
           */
          public function update_cache(){
-             if ($this->db->updateCache()) {
+               $cate = Data::tree($this->db->getAllCate(),'cname');
+             if (S('category',$cate,0,array('dir'=>CACHE_PATH))) {
                $this->success('更新缓存成功！',U('index'));
              }else{
                $this->error('更新缓存失败!');

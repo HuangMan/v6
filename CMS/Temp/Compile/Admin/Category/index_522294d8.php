@@ -13,7 +13,7 @@
 HOST = 'http://localhost';
 ROOT = 'http://localhost/v6';
 WEB = 'http://localhost/v6/index.php';
-URL = 'http://localhost/v6/index.php/Category/Category/index';
+URL = 'http://localhost/v6/index.php/Admin/Category/index';
 APP = 'http://localhost/v6/CMS';
 COMMON = 'http://localhost/v6/CMS/Common';
 HDPHP = 'http://localhost/hdphp/hdphp';

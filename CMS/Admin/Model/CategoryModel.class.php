@@ -25,11 +25,6 @@
           return true;
       }
 
-      public function updateCache(){
-        $cate = Data::tree($this->getAllCate(),'cname');
-        S('category',$cate,0,array('dir'=>CACHE_PATH));
-      }
-
   }
 
 
