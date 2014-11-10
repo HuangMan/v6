@@ -13,7 +13,7 @@
 HOST = 'http://localhost';
 ROOT = 'http://localhost/v6';
 WEB = 'http://localhost/v6/index.php';
-URL = 'http://localhost/v6/index.php/Article/Article/index';
+URL = 'http://localhost/v6/index.php/Admin/Article/index';
 APP = 'http://localhost/v6/CMS';
 COMMON = 'http://localhost/v6/CMS/Common';
 HDPHP = 'http://localhost/hdphp/hdphp';
@@ -27,7 +27,7 @@ HDPHPTPL = 'http://localhost/hdphp/hdphp/Lib/Tpl';
 VIEW = 'http://localhost/v6/CMS/Admin/View';
 PUBLIC = 'http://localhost/v6/CMS/Admin/View/Public';
 CONTROLLERVIEW = 'http://localhost/v6/CMS/Admin/View/Article';
-HISTORY = 'http://localhost/v6/';
+HISTORY = 'http://localhost/v6/index.php/Admin/Article/edit/cid/15';
 </script>
 </head>
 <body>
@@ -41,16 +41,18 @@ HISTORY = 'http://localhost/v6/';
 	<table class='table2'>
 		<thead>
 			<tr>
-				<td class='w50'>CID</td>
-				<td>栏目名称</td>
-				<td class='w150'>操作</td>
+				<th class='w50'>CID</th>
+				<th>栏目名称</th>
+				<th>作者</th>
+				<th>点击次数</th>
+				<th class='w150'>操作</th>
 			</tr>
 		</thead>
-		<?php $hd["list"]["c"]["total"]=0;if(isset($category) && !empty($category)):$_id_c=0;$_index_c=0;$lastc=min(1000,count($category));
+		<?php $hd["list"]["c"]["total"]=0;if(isset($article) && !empty($article)):$_id_c=0;$_index_c=0;$lastc=min(1000,count($article));
 $hd["list"]["c"]["first"]=true;
 $hd["list"]["c"]["last"]=false;
 $_total_c=ceil($lastc/1);$hd["list"]["c"]["total"]=$_total_c;
-$_data_c = array_slice($category,0,$lastc);
+$_data_c = array_slice($article,0,$lastc);
 if(count($_data_c)==0):echo "";
 else:
 foreach($_data_c as $key=>$c):
@@ -59,12 +61,14 @@ $hd["list"]["c"]["index"]=++$_index_c;
 if($_index_c>=$_total_c):$hd["list"]["c"]["last"]=true;endif;?>
 
 		<tr>
-				<td><?php echo $c['cid'];?></td>
-				<td><?php echo $c['_name'];?></td>
+				<td><?php echo $c['id'];?></td>
+				<td><?php echo $c['title'];?></td>
+				<td><?php echo $c['author'];?></td>
+				<td><?php echo $c['click'];?></td>
 				<td>
-					<a href="<?php echo U('add',array('pid'=>$c['cid']));?>">查看</a> |
-					<a href="<?php echo U('edit',array('cid'=>$c['cid']));?>">编辑</a> |
-					<a href="javascript:hd_ajax('<?php echo U(del);?>',{cid:<?php echo $c['cid'];?>});">删除</a>
+					<a href="<?php echo U('add',array('pid'=>$c['id']));?>">查看</a> |
+					<a href="<?php echo U('edit',array('cid'=>$c['id']));?>">编辑</a> |
+					<a href="javascript:hd_ajax('<?php echo U(del);?>',{cid:<?php echo $c['id'];?>});">删除</a>
 				</td>
 			</tr>
 		<?php $hd["list"]["c"]["first"]=false;

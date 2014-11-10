@@ -1,7 +1,7 @@
 <?php
 if (!defined("HDPHP_PATH"))exit('No direct script access allowed');
 //更多配置请查看hdphp/Config/config.php
-return array(
+$config = array(
     /********************************数据库********************************/
     'DB_DRIVER'                     => 'mysqli',    //数据库驱动
     'DB_CHARSET'                    => 'utf8',      //数据库字符集
@@ -13,4 +13,5 @@ return array(
     'DB_PREFIX'                     => 'v5_',          //表前缀
     'DB_BACKUP'                     => 'backup/',   //数据库备份目录
 );
+return array_merge($config,require 'Data/Config/config.inc.php');
 ?>

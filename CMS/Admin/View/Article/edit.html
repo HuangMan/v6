@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-	<title>添加文章</title>
+	<title>编辑文章</title>
 	<hdjs/>
     <js file="__PUBLIC__/js/category.js">
 </head>
@@ -14,7 +14,7 @@
         <li><a href="javascript:update_cache();"> 更新文章缓存 </a></li>
      </ul>
  </div>
- <div class='title-header'>添加文章</div>
+ <div class='title-header'>编辑文章</div>
  <form action="" method='post' class='hd-form' enctype='multipart/form-data'>
          <div class="tab">
              <ul class="tab_menu">
@@ -31,7 +31,10 @@
                 <tr>
                      <th class='w100'> 标题 </th>
                      <td>
-                         <input type="text" name="title" class='w300'/>
+                         <input type="text" name="title" class='w300' value='{$field.title}'/>
+                     </td>
+                     <td>
+                         <input type="hidden" name="id" value="{$field.id}"/>
                      </td>
                  </tr>
                   <tr>
@@ -48,12 +51,13 @@
                      <th class='w100'> 文件上传 </th>
                      <td>
                          <input type="file" name="thumb" class='w300'/>
+                         <img src="__ROOT__/{$field.thumb}" class='w300 h150' />
                      </td>
                  </tr>
                   <tr>
                      <th class='w100'> 正文 </th>
                      <td>
-                         <ueditor name='content'>
+                         <ueditor name='content' content='{$field.content}'>
                      </td>
                  </tr>
              </table>
@@ -63,13 +67,13 @@
                 <tr>
                      <th class='w100'> 关键字 </th>
                      <td>
-                         <input type="text" name="keywords" class='w300'/>
+                         <input type="text" name="keywords" class='w300' value='{$field.keywords}'/>
                      </td>
                  </tr>
                  <tr>
                      <th class='w100'> 描述 </th>
                      <td>
-                         <textarea name="description" class='w300 h100'>
+                         <textarea name="description" class='w300 h100' value='{$field.description}'>
                              
                          </textarea>
                      </td>
@@ -83,19 +87,20 @@
                   <tr>
                      <th class='w100'> 来源 </th>
                      <td>
-                         <input type="text" name="source" class='w300' value='后盾网'/>
+                         <input type="text" name="source" class='w300' value='{$field.source}'/>
                      </td>
                  </tr>
                   <tr>
                      <th class='w100'> 作者 </th>
                      <td>
-                         <input type="text" name="author" class='w300' value='{$hd.session.username}'/>
+                         <input type="text" name="author" class='w300' value='{$field.author}'/>
                      </td>
                  </tr>
                   <tr>
-                     <th class='w100'> 添加时间 </th>
+                     <th class='w100'> 更新时间 </th>
                      <td>
-                        <input type="text" readonly="readonly" id="updatetime" name="updatetime" value="{|date:'Y/m/d h:i:s'}" class="w150"/>
+                        <input type="text" readonly="readonly" id="updatetime" name="updatetime"  value="{$field.updatetime|date:'Y/m/d h:i:s',@@}"
+                         class="w150"/>
                         <script>
                         $('#updatetime').calendar({format: 'yyyy/MM/dd HH:mm:ss'});
                          </script>

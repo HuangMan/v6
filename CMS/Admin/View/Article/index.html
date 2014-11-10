@@ -15,19 +15,23 @@
 	<table class='table2'>
 		<thead>
 			<tr>
-				<td class='w50'>CID</td>
-				<td>栏目名称</td>
-				<td class='w150'>操作</td>
+				<th class='w50'>CID</th>
+				<th>栏目名称</th>
+				<th>作者</th>
+				<th>点击次数</th>
+				<th class='w150'>操作</th>
 			</tr>
 		</thead>
-		<list from='$category' name="c">
+		<list from='$article' name="c">
 		<tr>
-				<td>{$c.cid}</td>
-				<td>{$c._name}</td>
+				<td>{$c.id}</td>
+				<td>{$c.title}</td>
+				<td>{$c.author}</td>
+				<td>{$c.click}</td>
 				<td>
-					<a href="{|U:'add',array('pid'=>$c['cid'])}">查看</a> |
-					<a href="{|U:'edit',array('cid'=>$c['cid'])}">编辑</a> |
-					<a href="javascript:hd_ajax('{|U:del}',{cid:{$c.cid}});">删除</a>
+					<a href="{|U:'add',array('pid'=>$c['id'])}">查看</a> |
+					<a href="{|U:'edit',array('cid'=>$c['id'])}">编辑</a> |
+					<a href="javascript:hd_ajax('{|U:del}',{cid:{$c.id}});">删除</a>
 				</td>
 			</tr>
 		</list>

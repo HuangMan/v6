@@ -1,7 +1,7 @@
 <?php 
    
     define('APP_PATH','CMS/');
-    define('MODULE','Admin');
+    define('MODULE_LIST','Admin,Config');
     define('DEBUG', TRUE);
     define('CACHE_PATH', 'Cache/');
     

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-	<title>添加文章</title>
+	<title>编辑文章</title>
 	<script type='text/javascript' src='http://localhost/hdphp/hdphp/Extend/Org/Jquery/jquery-1.8.2.min.js'></script>
 <link href='http://localhost/hdphp/hdphp/Extend/Org/hdjs/hdui/css/hdui.css' rel='stylesheet' media='screen'>
 <script src='http://localhost/hdphp/hdphp/Extend/Org/hdjs/hdui/js/hdui.js'></script>
@@ -14,7 +14,7 @@
 HOST = 'http://localhost';
 ROOT = 'http://localhost/v6';
 WEB = 'http://localhost/v6/index.php';
-URL = 'http://localhost/v6/index.php/Admin/Article/add';
+URL = 'http://localhost/v6/index.php/Admin/Article/edit/cid/15';
 APP = 'http://localhost/v6/CMS';
 COMMON = 'http://localhost/v6/CMS/Common';
 HDPHP = 'http://localhost/hdphp/hdphp';
@@ -22,7 +22,7 @@ HDPHPDATA = 'http://localhost/hdphp/hdphp/Data';
 HDPHPEXTEND = 'http://localhost/hdphp/hdphp/Extend';
 MODULE = 'http://localhost/v6/index.php/Admin';
 CONTROLLER = 'http://localhost/v6/index.php/Admin/Article';
-ACTION = 'http://localhost/v6/index.php/Admin/Article/add';
+ACTION = 'http://localhost/v6/index.php/Admin/Article/edit';
 STATIC = 'http://localhost/v6/Static';
 HDPHPTPL = 'http://localhost/hdphp/hdphp/Lib/Tpl';
 VIEW = 'http://localhost/v6/CMS/Admin/View';
@@ -40,7 +40,7 @@ HISTORY = 'http://localhost/v6/index.php/Admin/Article/index';
         <li><a href="javascript:update_cache();"> 更新文章缓存 </a></li>
      </ul>
  </div>
- <div class='title-header'>添加文章</div>
+ <div class='title-header'>编辑文章</div>
  <form action="" method='post' class='hd-form' enctype='multipart/form-data'>
          <div class="tab">
              <ul class="tab_menu">
@@ -57,7 +57,10 @@ HISTORY = 'http://localhost/v6/index.php/Admin/Article/index';
                 <tr>
                      <th class='w100'> 标题 </th>
                      <td>
-                         <input type="text" name="title" class='w300'/>
+                         <input type="text" name="title" class='w300' value='<?php echo $field['title'];?>'/>
+                     </td>
+                     <td>
+                         <input type="hidden" name="id" value="<?php echo $field['id'];?>"/>
                      </td>
                  </tr>
                   <tr>
@@ -90,16 +93,17 @@ endif;?>
                      <th class='w100'> 文件上传 </th>
                      <td>
                          <input type="file" name="thumb" class='w300'/>
+                         <img src="http://localhost/v6/<?php echo $field['thumb'];?>" class='w300 h150' />
                      </td>
                  </tr>
                   <tr>
                      <th class='w100'> 正文 </th>
                      <td>
-                         <script type="text/javascript" charset="utf-8" src="http://localhost/hdphp/hdphp/Extend/Org/Ueditor/ueditor.config.js"></script><script type="text/javascript" charset="utf-8" src="http://localhost/hdphp/hdphp/Extend/Org/Ueditor/ueditor.all.min.js"></script><script type="text/javascript">UEDITOR_HOME_URL="http://localhost/hdphp/hdphp/Extend/Org/Ueditor/"</script><script id="hd_content" name="content" type="text/plain"></script>
+                         <script type="text/javascript" charset="utf-8" src="http://localhost/hdphp/hdphp/Extend/Org/Ueditor/ueditor.config.js"></script><script type="text/javascript" charset="utf-8" src="http://localhost/hdphp/hdphp/Extend/Org/Ueditor/ueditor.all.min.js"></script><script type="text/javascript">UEDITOR_HOME_URL="http://localhost/hdphp/hdphp/Extend/Org/Ueditor/"</script><script id="hd_content" name="content" type="text/plain"><?php echo $field['content'];?></script>
         <script type='text/javascript'>
         $(function(){
                 var ue = UE.getEditor('hd_content',{
-                serverUrl:'http://localhost/v6/index.php?m=Admin&c=Article&a=ueditor_upload&water='//图片上传脚本
+                serverUrl:'http://localhost/v6/index.php?m=Admin&c=Article&cid=15&a=ueditor_upload&water='//图片上传脚本
                 ,zIndex : 1000
                 ,initialFrameWidth:"100%" //宽度1000
                 ,catchRemoteImageEnable:false//关闭远程图片自动保存到本地
@@ -131,13 +135,13 @@ endif;?>
                 <tr>
                      <th class='w100'> 关键字 </th>
                      <td>
-                         <input type="text" name="keywords" class='w300'/>
+                         <input type="text" name="keywords" class='w300' value='<?php echo $field['keywords'];?>'/>
                      </td>
                  </tr>
                  <tr>
                      <th class='w100'> 描述 </th>
                      <td>
-                         <textarea name="description" class='w300 h100'>
+                         <textarea name="description" class='w300 h100' value='<?php echo $field['description'];?>'>
                              
                          </textarea>
                      </td>
@@ -151,19 +155,20 @@ endif;?>
                   <tr>
                      <th class='w100'> 来源 </th>
                      <td>
-                         <input type="text" name="source" class='w300' value='后盾网'/>
+                         <input type="text" name="source" class='w300' value='<?php echo $field['source'];?>'/>
                      </td>
                  </tr>
                   <tr>
                      <th class='w100'> 作者 </th>
                      <td>
-                         <input type="text" name="author" class='w300' value='<?php echo $_SESSION['username'];?>'/>
+                         <input type="text" name="author" class='w300' value='<?php echo $field['author'];?>'/>
                      </td>
                  </tr>
                   <tr>
-                     <th class='w100'> 添加时间 </th>
+                     <th class='w100'> 更新时间 </th>
                      <td>
-                        <input type="text" readonly="readonly" id="updatetime" name="updatetime" value="<?php echo date('Y/m/d h:i:s');?>" class="w150"/>
+                        <input type="text" readonly="readonly" id="updatetime" name="updatetime"  value="<?php echo date('Y/m/d h:i:s',$field['updatetime']);?>"
+                         class="w150"/>
                         <script>
                         $('#updatetime').calendar({format: 'yyyy/MM/dd HH:mm:ss'});
                          </script>

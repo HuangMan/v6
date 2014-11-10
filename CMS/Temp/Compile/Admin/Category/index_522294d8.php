@@ -27,7 +27,6 @@ HDPHPTPL = 'http://localhost/hdphp/hdphp/Lib/Tpl';
 VIEW = 'http://localhost/v6/CMS/Admin/View';
 PUBLIC = 'http://localhost/v6/CMS/Admin/View/Public';
 CONTROLLERVIEW = 'http://localhost/v6/CMS/Admin/View/Category';
-HISTORY = 'http://localhost/v6/index.php/Admin/Category/update_cache';
 </script>
 </head>
 <body>
